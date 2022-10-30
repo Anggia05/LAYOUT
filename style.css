@@ -1,0 +1,417 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h5{
+    color: rgb(10, 8, 8);
+    margin: 5;
+}
+.logo{
+    display: inline-block;
+}
+.btn input{
+    height: 50px;
+    width: 20%;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: #00B8A9;
+    margin: 10px 0 0 10px;
+}
+header img {
+    padding-top: 30px;
+    position: relative;
+  
+    margin-right :500px;
+    width: 850px;
+    height: 500px;
+    float: right;
+    top: 10px;
+    left: 40px; 
+}
+
+header {
+    position: relative;
+    min-height: 300px;
+    padding: 35px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    margin: 20px 0 0 90px;
+}
+.deskripsi p, h4 {
+    position: relative;
+    top: 10px;
+    width: 60%;
+    height: 60px;    
+}
+
+.radio-1 input{
+    position: relative;
+    display: inline;
+    width: auto;
+    margin: 20px 0 0 40px;
+    padding-left: 30px;
+    border: none;
+    background: #d9d9d9;
+    cursor: pointer;
+}
+select{
+    color: #666;
+    padding-inline-start: 0%;
+    text-decoration-color: black;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.kiri,.Kanan{
+    float: left;
+    width: 75%;
+    margin-top:20px;
+    
+}
+.kiri ul li, .kanan ul li{
+    display: inline-block;
+    color: rgb(126, 139, 139);
+    padding: 10px;  
+}
+.list ul li{
+        display: inline-block;
+        color: rgb(126, 139, 139);
+        padding: 10px;  
+    
+}
+.itematas{
+    height: 300px;
+    width: 20%;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    position: relative;
+}
+
+.itematas h2{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.garis{
+    margin-left: 20px;
+    border-top: 3px solid #00B8A9;
+    width: 70px;
+}
+
+.itematas .desk-1{
+    padding-left: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+    width: 80%;
+}
+.btn-item1 {
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    width: 45px;
+}
+
+.itematas .btn-2 input{
+    margin-top: 10px;
+    margin-left: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #00B8A9;
+}
+.itematas .btn-21 input{
+    margin-top: 10px;
+    margin-left: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #EAEAEA;
+}
+.itematas .hal-1{
+    padding-left: 20px;
+    font-size: 10px;
+}
+.itematas .btn-view input{
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px solid ;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+}
+.item1{
+    border: 1px solid #d9d9d9;
+    position: relative;
+    text-align: center;   
+    height: 300px;
+    width: 20%;
+    margin: 0;
+}
+.item1 img{
+    padding-top: 50px;
+    width: auto;
+    height: 150px;
+}
+.item1 h3{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.item1 .potongan{
+    font-size: 10px;
+}
+
+.bagian1,.bagian2{
+    display: flex;
+}
+.tulisan h2{
+    text-align: center; 
+}
+.bagian3{
+    margin-left: 25%;
+    margin-right: 10%;
+    display: flex;
+    
+}
+
+.grid-item1 h3{
+    font-size: 13px;
+    font-weight: 400;
+}
+.grid-item1 h2{
+    font-size: 15px;
+    margin: 0;
+}
+.grid-item1 .biaya{
+    color: #00B8A9;
+    font-size: 13px;
+    margin: 0;
+}
+.grid-item1.potongan{
+    font-size: 10px;
+}
+
+.potongan span{
+    color: #00B8A9;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    list-style-position: inherit;
+}
+.container:after{
+    content: " ";
+    display: block;
+    clear: both;
+    color: rgb(31, 63, 63);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.kepuasan{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+.penilaian1, .penilaian2, .penilaian3{
+    margin: auto;
+    float: left;
+    width:25%;
+    border-right:rgb(112, 31, 18); 
+    border-style: none solid none none;
+    padding: 40px;
+    text-align: left;
+}
+.rating { 
+    border: none;
+    float: left;
+  }
+  
+.rating > input { display: none; }   
+.rating > label:before { 
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+  }
+  
+  .rating > .half:before { 
+    content: "\f089";
+    position: absolute;
+  }
+  
+  .rating > label { 
+    color: rgb(223, 238, 18); 
+   float: right; 
+  }
+  
+  /***** CSS untuk hover nya *****/
+  
+  .rating > input:checked ~ label, /* memperlihatkan warna emas pada saat di klik */
+  .rating:not(:checked) > label:hover, /* hover untuk star berikutnya */
+  .rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover untuk star sebelumnya  */
+  
+  .rating > input:checked + label:hover, /* hover ketika mengganti rating */
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label, /* seleksi hover */
+  .rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+.pelindung h4{
+    text-align: center;
+    position: center;    
+}
+.pelindung img{
+    position: center;
+    width: 600px;
+    height: 400px;  
+}
+.semua h4{
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    background: #FFED85; 
+    width: 80px;
+    position: initial;
+}
+.helm h4{
+   text-align: center; 
+   
+}
+.helm ul li{
+    display: inline-block;
+    color: rgb(47, 51, 51);
+    margin: 0% auto;
+    background-color: rgba(168, 235, 198, 0.836);
+    padding: 20px;
+    padding-inline-end: 10%;
+    text-align: center;   
+}
+  .item2{
+    display: inline-block;
+    color: #666;
+    margin-bottom: 0px;
+    margin-top: auto;
+    width: 100%;
+    padding-top: 0;
+}
+.item2 ul li{
+    display: inline-block;
+    color: rgb(47, 51, 51);
+    margin: 0% auto;
+    background-color: rgba(168, 235, 198, 0.575);
+    padding: 20px;
+    padding-inline-end: 15%;
+    text-align: center;
+    position: center;  
+}
+.information, .accounts,.contact, .medsos {
+    color: #666;
+    float: left;
+    width: 20%;
+    border-right:rgb(112, 31, 18); 
+    border-style: none solid none none;
+    padding: 30px;
+}
+.medsos ul li{
+    display: inline-block;
+    color: rgb(10, 12, 12);
+    margin-right: 20px;
+    margin-inline-start: auto;
+    position: relative;
+    margin: 0% auto;
+    padding: 5px;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.copyright{
+    color: #666;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    background-color: #54bae2d0 ;
+    text-align: center; 
+}
+
+
+
+
+header h1{
+    float: :left;
+    padding: 15px 0;
+    color: rgb(106, 110, 110);
+
+}
+header ul {
+    float: right;
+}
+header ul li { 
+    display: inline-block
+}
+header ul li a{
+    padding:25px 20px ;
+    display: inline-block;
+}
+header ul li a: hover {
+    background-attachment: fixed;
+    background-color:rgb(106, 110, 110);
+    color: #fff;
+}
+.active{
+    background-attachment: fixed;
+    background-color:rgb(106, 110, 110);
+    color: #fff;
+}
+.banner{
+	height: 70vh;
+	background-image: url(../LOYOUT/1.avif);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+    content: " " ;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section{
+	padding: 50px 0;
+};
+section h4{
+	text-align: center;
+	padding: 20px 0;
+	color: #666;
+}
+about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+contact{
+	background-color:#666;
+}
